@@ -1,0 +1,39 @@
+<h2>
+    Student List
+</h2>
+
+<div class="table-responsive">
+  <table class="table table-hover">
+    <thead>
+      <tr>
+    <th>No</th>
+    <th>Name</th>
+    <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>        
+  <tr *ngFor="let s of stud">
+      <td>{{s.no}}</td>
+      <td>{{s.name}}</td>
+      <td>{{s.address}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+<!-- <table>
+  <tr>
+  </tr>
+  </tr>
+  </table> -->
+
+
+
